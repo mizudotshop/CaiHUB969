@@ -140,12 +140,12 @@ local gameName = success and gameInfo.Name or "Game"
 createNotification("FFS Scripts", gameName .. " detected!")
 
 local API = loadstring(
-	game:HttpGet('https://sdkapi-public.luarmor.net/library.lua')
+	game:HttpGet('')
 )()
 API.script_id = script_id
 
 local closeUI = false
-local adUrl = "https://ads.luarmor.net/get_key?for=FFS_Free_Keys-yTRpdogpOywa"
+local adUrl = ""
 WindUI.Services.luarmorService = {
 	Name = 'Luarmor (Lootlabs)',
 	Icon = 'link',
